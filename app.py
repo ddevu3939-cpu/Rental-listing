@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-
+#test
 MODEL_PATH = "rental_interest_tfidf_pipeline.joblib"
 model = joblib.load(MODEL_PATH)
 
